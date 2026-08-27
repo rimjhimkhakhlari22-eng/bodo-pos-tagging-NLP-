@@ -1,1 +1,21 @@
+Bodo POS Tagging - Model Evaluation Results
 
+Dataset:
+- Language: Bodo
+- Number of POS Tags: 35
+
+Model 1: BiLSTM-CRF
+Accuracy: 82.95%
+Precision: 82.62%
+Recall: 82.95%
+F1-Score: 82.38%
+
+Model 2: IndicBERT v2
+Accuracy: 85.51%
+Precision: 85.36%
+Recall: 85.51%
+F1-Score: 85.31%
+
+Comparison:
+IndicBERT v2 outperformed the BiLSTM-CRF baseline across all
+primary evaluation metrics.
